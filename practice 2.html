@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.13.1/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.1/dist/js/uikit-icons.min.js"></script>
+    <title>Practice 2</title>
+    <style>
+        .es-img img{
+            color: whitesmoke; 
+             background-color: transparent;border: 2px solid #6e63ff; 
+             width: 50px;
+              height: 50px;
+              border-radius: 10px;
+              
+              padding: 10px;
+
+
+        }
+        .es-img .ss-title  {
+            color: whitesmoke;
+        }
+        .es-img p{
+            color: whitesmoke;
+        }
+        .uk-grid {
+     margin-left: 23%;
+     margin-top: 4%;
+}
+@media (max-width:1440px) {
+    .tl-nav{
+        display: none;
+    }
+
+    
+}    
+
+@media (max-width:1440px) {
+   .thide{
+    font-size: 15px !important;
+    margin-top: -20px;
+  }
+}
+@media (max-width: 1440px) {
+   .high{
+    width: 100%;
+    height:1200px;
+    object-fit:cover;
+   
+    
+  }
+}
+@media (max-width:1440px) {
+   .rs{
+    font-size: 15px !important;
+   
+  }
+}
+
+@media (min-width: 1440px) {
+   .oneview{
+    display: none;
+    
+   
+  }
+}
+@media (min-width: 1440px) {
+   .gcenter{
+    width: 30px;;
+    height: 25px;
+    margin-top: 0;
+    color: whitesmoke;
+  
+    
+   
+  }
+}
+.gcenter{
+    margin-top: -1743px;
+    margin-left: 84%;
+    color: whitesmoke;
+    width: 30px;
+    height: 25px;
+
+}
+
+.jnav{
+    display: block;
+}
+.uk-button-text::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    border-bottom: 1px solid rgb(0, 106, 245);
+    transition: right .3s ease-out;
+}
+
+.ms-changes{
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    top: 20%;
+    right: 1%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    z-index: 999;
+}
+.ms-nav{
+    list-style: none;
+    padding: 10px;
+
+}
+.ms-nav li{
+   
+    padding: 20px;
+
+}
+.ms-nav li:hover{
+     background-color: rgb(228, 228, 228);
+}
+.ls-up{
+   
+background-color: transparent;
+border: 2px solid gray;
+width:85px;
+height: fit-content;
+border-radius: 15px;
+position: fixed;
+top:95%;
+right: 1%;
+
+    
+
+}
+.ps-up{
+    list-style: none;
+}
+.jj-inside{
+    text-align: -webkit-left;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 8%;
+}
+.dd-img {
+ box-shadow: none;
+}
+.dd-img  img {
+ border-radius: 15px;
+}
+.unhide{
+    list-style: none;
+    text-align: left;
+}
+.unhide li{
+    padding: 15px;
+}
+.li-center{
+    margin-left: 11%;
+    margin-top: 4%;
+    margin-right: 14%;
+}
+.cm-m{
+    margin-top: 20%;
+    width: 335px;
+    text-align: initial;
+}
+.js-bg{
+    background-color: #ebe9eb;
+}
+.uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .25em;
+    box-sizing: border-box;
+     min-height: 0px;   
+    font-size: .875rem;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-decoration: none;
+}
+
+
+        
+    </style>
+</head>
+<body>
+    <div>
+        <div class="uk-position-relative">
+            <img class =" high" src="https://jevelin.shufflehound.com/business/wp-content/uploads/sites/39/2019/11/Rectangle-1-copy-7.jpg?id=10" width="100%" >
+            <!-- top-mail -->
+                        <div class="uk-position-top" style="    margin-top: 25px;">
+                            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                                <div class="uk-navbar-left tl-nav">
+                                    <ul class="uk-navbar-nav">
+                                        <li><a href=""  style="color: whitesmoke;text-transform: lowercase;"><span uk-icon="mail"> </span>  brand@company.co</a></li>
+                                        <li><a href="" style="color: whitesmoke;"><span uk-icon="receiver"> </span>   (024) 2 6129847</a></li>
+                                        <li><a href=""  style="color: whitesmoke;text-transform: capitalize;"><span uk-icon="clock"> </span>  Mon. - Fri. 11AM - 19PM</a> </li>  
+                        
+                                    </ul>
+                                </div>
+
+            <!-- social medias-->
+                                <div class="uk-navbar-right tl-nav">
+                                    <ul class="uk-navbar-nav">
+                                        <li><a href="" uk-icon="icon: facebook" style="color: whitesmoke;"></a></li>
+                                        <li><a href="" uk-icon="icon: twitter" style="color: whitesmoke;"></a></li>
+                                        <li><a href="" uk-icon="icon: instagram" style="color: whitesmoke;"></a> </li>  
+                                        <li><a href="" uk-icon="icon: search" style="color: whitesmoke;"></a> </li>     
+
+                                    </ul>
+                                </div>
+                            </nav>
+                            <hr style="color: whitesmoke;margin-top: 18px;opacity: 0.5;">
+                <!-- logo -->
+                            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                                <div class="uk-navbar-left tl-nav">
+                                    <ul class="uk-navbar-nav">
+                                        <li ><a href="" ><img src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/39/2019/11/Jevelin_logo_light.png"></a></li>
+                                         
+
+                                    </ul>
+                                   
+                                </div>
+
+            <!-- Home navbar-->
+                                <div class="uk-navbar-right tl-nav" style="margin-right: 3%;">
+                                    <ul class="uk-navbar-nav">
+                                        <li><a href=""  style="color: whitesmoke;" class="uk-button uk-button-text" >Home</a></li>
+                                        <li><a href="" style="color: whitesmoke;"  class="uk-button uk-button-text">About</a></li>
+                                        <li><a href="" style="color: whitesmoke;"  class="uk-button uk-button-text">Services</a></li>
+                                        <li><a href=""  style="color: whitesmoke;"  class="uk-button uk-button-text">Pricing</a> </li>  
+                                        <li><a href=""  style="color: whitesmoke;"  class="uk-button uk-button-text">Contact</a> </li> 
+                                        <button class="uk-button uk-button-primary" style="background-color: blue;border-radius: 2px;height: 63px;"  class="uk-button uk-button-text">Purchase</button>
+
+                        
+                                    </ul>
+                                    
+                                </div>
+                            </nav>
+                            <div class="uk-container " style="text-align: center; margin-top: 10%;">
+                                <div class="tl-hide">
+                                    <p class="thide" style="color: whitesmoke; font-size: 25px;">Compliment your ideas with</p>
+                                    <p class="thide" style="color: whitesmoke; font-size: 75px;">Perfect business template</p>
+                                </div>
+                               
+                            </div>
+                            <div class=" uk-container uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 300; repeat: true">
+                               
+                                        <div>
+                                            <div class="uk-card es-img uk-card-default uk-card-body" style="background-color: transparent;    width: 75%;">
+                                                <img src="smartphone.png" >
+                                                <h3 class="uk-card-title ss-title rs ">01. Mobile Ready</h3>
+                                                <p class="rs">Lorem ipsum dolor sit amet, Phasellus id erat eu..</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-card es-img uk-card-default uk-card-body" uk-scrollspy-class="uk-animation-slide-top"  style="background-color: transparent;    width: 75%;">
+                                                <img src="customization.png">
+
+                                                <h3 class=" rs ss-title uk-card-title">01.Customizable</h3>
+                                                <p  class="rs">Lorem ipsum dolor sit amet, Phasellus id erat eu.</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-card es-img uk-card-default uk-card-body"  style="background-color: transparent;    width: 75%;">
+                                                <img src="smartphone.png" >
+
+                                                <h3 class=" ss-title rs uk-card-title">01. Affordable</h3>
+                                                <p  class="rs">Lorem ipsum dolor sit amet, Phasellus id erat eu.</p>
+                                            </div>
+                                        </div>     
+                                 
+                            </div>
+
+
+                            <div class="oneview">
+                                <button class="uk-button gcenter uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #offcanvas-slide">-</button>
+
+                                <div id="offcanvas-slide" uk-offcanvas="overlay: true">
+                                    <div class="uk-offcanvas-bar">
+                                
+                                        <button class="uk-offcanvas-close" type="button" uk-close></button>
+                                
+                                        <ul class="uk-navbar-nav jnav">
+                                            <li><a href=""  style="color: whitesmoke;border-bottom: 3px solid blue;"  >Home</a></li>
+                                            <li><a href="" style="color: whitesmoke;">About</a></li>
+                                            <li><a href="" style="color: whitesmoke;">Services</a></li>
+                                            <li><a href=""  style="color: whitesmoke;">Pricing</a> </li>  
+                                            <li><a href=""  style="color: whitesmoke;">Contact</a> </li> 
+                                            <button class="uk-button uk-button-primary" style="background-color: blue;border-radius: 2px;height: 63px;">Purchase</button>
+    
+                            
+                                        </ul>
+                                
+                                    </div>
+                                </div>
+                            </div>
+         
+                    </div>
+                    
+
+        </div>
+
+        <div class="ms-changes">
+            <ul class="ms-nav ">
+                <li><a href="" uk-icon="icon: server"></a></li>
+                <li><a href="" uk-icon="icon:  tripadvisor"></a></li>
+                <li><a href="" uk-icon="icon: bag"></a></li>
+                <li><a href="" uk-icon="icon: question"></a></li>
+                <li><a href="" uk-icon="icon:  lifesaver"></a></li>
+                <li><a href="" uk-icon="icon: mail"></a></li>
+                
+            </ul>
+
+        </div>
+       
+    </div>
+    <div class="ls-up">
+        <ul class="ps-up">
+            <li><a href="#" uk-totop uk-scroll></a></li>
+        </ul>
+    </div>
+    <!-- <div>
+        <div class="uk-container">
+            <div class="uk-grid">
+                
+               
+
+            </div>
+           
+        </div>
+    </div>
+    </div> -->
+    <div class="uk-text-center" style="margin-top: 11%;" uk-grid>
+        <div class="uk-width-1-3">
+            <div class="jj-inside" >
+                <h3 style="font-size: 45px; font-weight: 500;">About our main company goal</h3>
+                <p style="font-size: 20px;">Vivamus fermentum, augue a gravida gravida, odio erat malesuada est, eu condimentum lorem felis sed risus.</p>
+                <div class="uk-grid" style=" margin-left: 16%;">
+                    <div class="divide-uy" style="padding:10px 30px 10px 0px; ">
+                        <h2 style="font-size: 45px; line-height: 120%!important; font-weight: 300!important;color: #2d1dff;">20+</h2>
+                        <p>investors</p>
+                    </div>
+                    <div class="divide-ay"  style="padding:10px 10px 10px 20px;">
+                        <h2 style="font-size: 45px; line-height: 120%!important; font-weight: 300!important;color: #2d1dff;">15k</h2>
+                        <p>Projects</p>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="uk-width-1-2">
+            <div class="uk-card-default dd-img" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                
+                <img src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/39/2019/11/call-1866884_1920.jpg" width="1863" height="300px">
+            </div>
+           
+        </div>
+    </div>
+    <div class="uk-container" style="max-width: 2000px;">
+
+        <div class="uk-text-center" style="margin-top: 11%;" uk-grid>
+            <div class="uk-width-1-2">
+                <div class="uk-card-default dd-img" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                    
+                    <img src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/39/2019/11/austin-distel-wawEfYdpkag-unsplash.jpg" width="2000px" height="300px">
+                </div>
+            </div>
+            <div class="uk-width-1-3">
+                <div class="jl-inside" style="    margin-top: 17%;" >
+                    <h3 style="font-size: 45px; font-weight: 500;">When you put your mind to it</h3>
+                    <p style="font-size: 22px;">Vivamus fermentum, augue a gravida gravida, odio erat malesuada est, eu condimentum lorem felis sed risus.</p>
+                    <button class="uk-button uk-button-primary" style="background-color: blue;border-radius: 2px;height: 63px;"  class="uk-button uk-button-text">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div class="uk-container" style="margin-top: 10%;">
+        <div style="margin-left: -9%;">
+            <div style="text-align: center;">
+                <h3 style="color: blue;">To compliment your ideas</h3>
+                <h1>Services we can provide</h1>
+            </div>
+            <div>
+                <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <span uk-icon="joomla"></span>
+                            <h4>Marketing strategies</h4>
+                            <p>Vivamus fermentum, augue a grav gravida, odio erat malesuada</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <span uk-icon="github"></span>
+                            <h4>Consulting and analysis</h4>
+                            <p>Vivamus fermentum, augue a grav gravida, odio erat malesuada</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <span uk-icon="business"></span>
+                            <h4>Business planning</h4>
+                            <p>Vivamus fermentum, augue a grav gravida, odio erat malesuada</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <span uk-icon="unlock"></span>
+                            <h4>30+ years of experience</h4>
+                            <p>Vivamus fermentum, augue a grav gravida, odio erat malesuada</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+   <div style="margin-top: 10%;">
+    <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="http://jevelin.shufflehound.com/business/wp-content/uploads/sites/39/2019/11/Rectangle-532-copy.jpg?id=11" style="width: 100%; height: 600px;" uk-img>
+        <div style="width: 368px;
+        text-align: -webkit-center;">
+            <img src="play-button.png" width="80px"><br>
+        <h1>Video introduction presentation</h1><br>
+        <h4 style="margin-top: -20px;">To compliment your ideas</h4>
+
+        </div>
+        
+      </div>
+       
+   </div>
+   <div>
+    <div class="uk-text-center li-center" uk-grid>
+        <div class="uk-width-1-3 cm-m">
+            <h3 style="font-size: 2.5rem;">Check out our most popular choises</h3>
+            <p style="
+            font-size: 14px;">Ut et nisi ac dui pulvinar consequat. Curabitur aliquam, felis ut ultricies porta, ante dolor iac</p>
+           
+        </div>
+        <div class="uk-width-1-3">
+            <div style="background-color: #ebe9eb;;border-radius: 10px;">
+                <div class="uk-card uk-card-default js-bg uk-card-body"  uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                    <h3>Startup</h3>
+                <h2 style="color: #2d1dff;">$58</h2>
+                <p>Curabitur aliquam, felis ut ultricies porta, ante dolor iaculis ante, ante dolor iaculis anteet frin gilla ligula tortor eget nisi.</p>
+                <hr>
+
+                <ul class="unhide" >
+                    <li><a href="" uk-icon="icon: plus"> </a>   Picture library</li>
+                    <li><a href="" uk-icon="icon: plus"></a>    24h support</li>
+                    <li><a href="" uk-icon="icon: plus"></a>    Advanced search</li>
+                    <li><a href="" uk-icon="icon: plus"></a>    Template library</li>
+                    <li><a href="" uk-icon="icon: plus"></a>    400 GB cloud storage</li>
+                    <button class="uk-button uk-button-primary" style=" color:black; background-color: transparent;border: 2px solid blue ;height: 63px; margin-top: 5%;"  class="uk-button uk-button-text">Choosing Price</button>
+                   
+                </ul>
+                
+                </div>
+            </div>
+        </div>
+        <div class="uk-width-1-3">
+            <div style="background-color: transparent;border-radius: 10px; border: 2px solid blue;">
+                <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                    <h3>Startup</h3>
+                <h2 style="color: #2d1dff;">$120</h2>
+                <p>Curabitur aliquam, felis ut ultricies porta, ante dolor iaculis ante, ante dolor iaculis anteet frin gilla ligula tortor eget nisi.</p>
+                <hr>
+
+                <ul class="unhide" >
+                    <li><a href="" uk-icon="icon: plus"> </a>   Picture library</li>
+                    <li><a href="" uk-icon="icon: plus"></a>    24h support</li>
+                    <li><a href="" uk-icon="icon: plus"></a>    Advanced search</li>
+                    <li><a href="" uk-icon="icon: plus"></a>    Template library</li>
+                    <li><a href="" uk-icon="icon: plus"></a>    400 GB cloud storage</li>
+                    <button class="uk-button uk-button-primary" style=" color:rgb(255, 255, 255); background-color: blue;;height: 63px; margin-top: 5%;"  class="uk-button uk-button-text">Choosing Price</button>
+                   
+                </ul>
+                
+                </div>
+            </div>
+                
+            </div>
+        </div>
+            
+        </div>
+        
+    </div>
+   </div>
+
+
+
+
+
+
+
+  <div style="margin-top: 10%;">
+    <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="https://jevelin.shufflehound.com/business/wp-content/uploads/sites/39/2019/11/Rectangle-534-copy.jpg?id=12" style="width: 100%; height: 600px;" uk-img>
+        <div style="width: 580px;text-align: -webkit-center">
+                       <h4 style="margin-top: -20px;">To compliment your ideas</h4>
+        <h1>Perfect business template that you will love with all heart</h1><br>
+        <button class="uk-button uk-button-primary" style=" color:rgb(255, 255, 255); background-color: transparent;border: 2px solid blue ;height: 63px; margin-top: 5%;"  class="uk-button uk-button-text"><span style="color: whitesmoke;" uk-icon="tiktok"></span>Contactus</button>
+        
+
+        </div>
+        
+      </div>
+       
+   </div>
+   <div class="uk-section uk-section-secondary uk-light">
+    <div class="uk-container">
+
+        
+        <div class="uk-grid-match uk-child-width-1-4@m" uk-grid>
+            <div>            
+                  
+            <img src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/39/2019/11/Jevelin_logo_light.png">                       
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <p >
+                <ul class="uk-navbar-nav uk-grid-match" style="list-style: none;" >
+                    <li><a href="" uk-icon="icon: facebook" style="color: whitesmoke;"></a></li>
+                    <li><a href="" uk-icon="icon: twitter" style="color: whitesmoke;"></a></li>
+                    <li><a href="" uk-icon="icon: instagram" style="color: whitesmoke;"></a> </li>  
+                    <li><a href="" uk-icon="icon: search" style="color: whitesmoke;"></a> </li>     
+    
+                </ul>
+
+            </p>
+            
+            
+            </div>
+            <div>
+                <ul class=" " style="list-style: none;" uk-grid>
+                    <li><a href="">Cookies</a>  </li>
+                    <li><a href="" >About</a>  </li>
+                    <li><a href="" >privacy policy</a>  </li>  
+                    <li><a href="" >Licences</a>  </li>     
+    
+                </ul>
+            </div>
+            <div>
+                <ul class="uk-navbar-nav" style="list-style: none;" uk-grid>
+                    <li><a href="">Timeline</a>  </li>
+                    <li><a href="" >News</a>  </li>
+                    <li><a href="" >licencing</a>  </li>  
+                    <li><a href="" >insight</a>  </li>     
+    
+                </ul>
+            </div>
+            <div>
+                <ul class="uk-navbar-nav" style="list-style: none;" uk-grid>
+                    <li><a href="">strategy</a>  </li>
+                    <li><a href="" >Terms and conditions</a>  </li>
+                    <li><a href="" >Services</a>  </li>  
+                    <li><a href="" >FAQ</a>  </li>     
+    
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+    
+</body>
+ <!-- <a class="navbar-brand" href="#">
+                  <img src="https://bootstrapmade.com/demo/templates/Regna/assets/img/logo.png">
+              </a> -->
+              <!-- https://bootstrapmade.com/demo/templates/Regna/assets/img/hero-bg.jpg -->
+</html>
